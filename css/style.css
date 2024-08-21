@@ -1,0 +1,41 @@
+body,
+html {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--body-bg-color);
+}
+:root {
+    --body-bg-color: #ECF0F3;
+    --color1: #2c2f50;
+    --color2: #2FF093;
+    --color3: #ff6021;
+    --color4: #6748CD;
+    --color5: #323232;
+    --text-color2: #6f7070;
+}
+
+a, ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    align-items: center;
+}
+
+.logo a {
+    color: var(--color2);
+    font-size: 25px;
+}
+
+.navbar {
+    border-radius: 30px;
+}
+.navbar .menu li a {
+    color: var(--text-color2);
+}
+.navbar .menu li a:hover {
+    color: var(--color2);
+}
+.navbar .menu .active {
+    color: var(--color2);
+}
