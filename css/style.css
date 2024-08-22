@@ -39,3 +39,8 @@ a, ul, li {
 .navbar .menu .active {
     color: var(--color2);
 }
+
+.sidebar {
+    border: 2px solid var(--color2);
+    padding: 15px 8px;
+}
