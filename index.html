@@ -24,68 +24,165 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <!--Title logo-->
-    <!-- <link rel="icon" type="image/x-icon" href="assets/tablogo.ico" /> -->
+    <link rel="icon" type="images/icon" href="images/my_profile.ico" />
     <title>Protfolio</title>
 </head>
 
 <body>
 
     <main>
-        <!--Navbar-->
-        <div class="container mx-auto pt-5">
-            <div class="row">
-                <div class="navbar d-flex justify-content-between bg-white px-5 py-3">
-                    <div class="logo fw-bolder">
-                        <a href="index.html">Pranto</a>
-                    </div>
-                    <div class="menu">
-                        <ul class="d-flex fw-bolder">
-                            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                        </ul>
+        <!--Header-->
+        <header>
+            <div class="container-fluid pt-4">
+                <div class="row">
+                    <div class="header d-flex justify-content-between bg-white px-5 py-3">
+                        <div class="logo fw-bolder">
+                            <a href="index.html">Pranto</a>
+                        </div>
+                        <div class="menu">
+                            <ul class="d-flex fw-bolder">
+                                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
 
-        <!--Profile-->
-        <div class="container pt-5">
-            <div class="row">
-                <div class="profile d-flex">
-                    <div class="sidebar col-md-4">
-                        <div class="images d-flex justify-content-center">
-                            <img src="./images/Nishat_pic.jpg" style="width: 300px; border-radius: 18px 18px 0 0;" alt="Owners pic" />
+        <!--Home Section-->
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <!--Sidebar-->
+                    <div class="sidebar col-md-3 bg-white">
+                        <div class="images text-center pt-4">
+                            <img src="./images/Nishat_pic.jpg"
+                                style="width: 250px; height: 330px; border-radius: 16px 16px 0 0;" alt="Owners pic" />
                         </div>
-                        <div class="self-info my-4 px-3">
-                            <p>Full Stack Web Developer in front-end and back-end development.</p>
+                        <div class="self-info my-4 text-center">
+                            <h4>Hi! I'm <span>Nishat Chowdhury</span></h4>
+                            <p class="mt-2">Frontend Developer</p>
+                            <p class="mt-4">nishatchowdhury315@gmail.com</p>
+                            <p class="mt-2">+880 1795 621020</p>
                         </div>
-                        <div class="button text-center">
-                            <div class="hire-me-btn">
-                                <a>Hire Me</a>
-                            </div>
-                            <div class="contact-btn mt-3">
-                                <a>Contact</a>
-                            </div>
+                        <div class="social d-flex justify-content-center gap-3">
+                            <a><i class="fa-brands fa-facebook-f"></i></a>
+                            <a><i class="fa-brands fa-github"></i></a>
+                            <a><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a><i class="fa-brands fa-x-twitter"></i></a>
                         </div>
                         <hr>
-                        <div class="social d-flex justify-content-center">
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-instagram ms-4"></i>
-                            <i class="fa-brands fa-x-twitter ms-4"></i>
+                        <div class="button text-center">
+                            <div class="hire-me-btn">
+                                <a>Hire Me!</a>
+                            </div>
+                            <div class="CV-btn mt-3">
+                                <a>Download CV</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="details col-md-8">
 
+                    <!--Main body-->
+                    <div class="main_body col-md-9">
+                        <!--Profile-->
+                        <div class="profile">
+                            <h4>Hi their! I'm</h4>
+                            <h1 class="text-animete mt-3">Professional <span>Web Application</span> Specialist</h1>
+                            <hr>
+                            <p class="mt-3">Full Stack Web Developer and Web Application specializing in front-end and back-end development. Experienced with all stages of the development cycle for dynamic websites. Well versed in numerous programming languages JavaScript ES6 Nodejs, structured language HTML5 CSS3, open-source front-end JavaScript library ReactJS, NextJS With MongoDB & MySql Database.</p>
+                        </div>
+
+                        <!--Details-->
+                        <div class="details d-flex">
+                            <div class="about-service col-md-5">
+                                <div class="about">
+                                    <div class="logo fw-bolder">
+                                        <a href="index.html"><i class="fa-solid fa-code"></i> Pranto</a>
+                                    </div>
+                                    <div class="about-link mt-3">
+                                        <p>Want to know more</p>
+                                        <h2><a href="#">About Me</a></h2>
+                                    </div>
+                                </div>
+                                <div class="service mt-4">
+                                    <div class="service-icon d-flex fw-bolder">
+                                        <i class="fa-brands fa-react"></i>
+                                        <i class="fa-brands fa-node-js"></i>
+                                        <i class="fa-brands fa-js"></i>
+                                    </div>
+                                    <div class="service-link mt-3">
+                                        <p>Specialization</p>
+                                        <h2><a href="#">Services Offer</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-contact col-md-7">
+                                <div class="project">
+                                    <div class="showcase">
+                                        <div class="showcase-1"></div>
+                                        <div class="showcase-2"></div>
+                                    </div>
+                                    <div class="project-link mt-3">
+                                        <p>Project View</p>
+                                        <h2><a href="#">Project</a></h2>
+                                    </div>
+                                </div>
+                                <div class="blog-contact d-flex">
+                                    <div class="blog col-md-6">
+                                        <div class="blog-link mt-3">
+                                            <p>Visit Our Blog</p>
+                                            <h2><a href="#">Blog</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="contact col-md-6">
+                                        <div class="contact-link mt-3">
+                                            <p>Lets Work</p>
+                                            <h2><a href="#">Contact</a></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Testimonials-->
+                        <div class="testimonials">
+                            <h2>Nishat Chowdhury</h2>
+                            <hr>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque earum soluta nulla quidem quisquam voluptatibus, nostrum sit similique nam quas eius ad, quasi, repellat pariatur in. Eaque illo eius veniam?</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto">
+                        <div class="small m-0">Copyright nishat &copy; 2023. All rights reserved</div>
+                    </div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Terms</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
     </main>
 
 
