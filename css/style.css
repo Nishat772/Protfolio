@@ -72,8 +72,8 @@ section {
     color: var(--text-color2);
 }
 .sidebar .social a {
-    text-align: center;
-    padding: 10px 0;
+    display: flex;
+    justify-content: center;
     width: 40px;
     height: 40px;
     border-radius: 9px;
@@ -81,7 +81,7 @@ section {
     cursor: pointer;
 }
 .sidebar .social i:hover {
-    color: var(--icon-color);
+    color: var(--text-color3);
 }
 .sidebar .button {
     margin: 10px 40px;
@@ -92,7 +92,9 @@ section {
     font-weight: 500;
     width: 100%;
     height: 50px;
-    padding-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
     cursor: pointer;
     border: 2px solid var(--body-bg-color);
@@ -107,7 +109,9 @@ section {
     color: var(--text-color1);
     width: 100%;
     height: 50px;
-    padding-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
     cursor: pointer;
     border: 2px solid var(--body-bg-color);
@@ -140,6 +144,7 @@ section {
 }
 .profile p {
     color: var(--text-color2);
+    text-align: justify;
 }
 
 .details {
@@ -159,7 +164,7 @@ section {
     color: var(--text-color2);
 }
 .about .about-link h2 {
-    font-size: 28px;
+    font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -173,5 +178,100 @@ section {
     background-color: var(--text-color1);
     padding: 5% 10%;
     width: 95%;
-    height: 250px;
+    height: 240px;
+}
+.service .service-icon i {
+    font-size: 50px;
+    color: var(--icon-color);
+    width: 80px;
+    height: 90px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service .service-link p {
+    color: var(--text-color2);
+}
+.service .service-link h2 {
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.service .service-link a {
+    color: var(--color3);
+    font-family: "Oswald", sans-serif;
+}
+
+.project {
+    border-radius: 15px;
+    background-color: var(--text-color1);
+    padding: 6%;
+    width: 100%;
+    height: 300px;
+}
+.project .showcase .showcase-1 {
+    border-radius: 15px;
+    background-image: url(../images/app.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+}
+.project .showcase .showcase-2 {
+    border-radius: 15px;
+    background-image: url(../images/web.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+}
+.project .project-link p {
+    color: var(--text-color2);
+}
+.project .project-link h2 {
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.project .project-link a {
+    color: var(--color3);
+    font-family: "Oswald", sans-serif;
+}
+
+.blog {
+    border-radius: 15px;
+    padding: 6%;
+    width: 100%;
+    height: 130px;
+    background-color: var(--logo-span-button);
+}
+.contact {
+    border-radius: 15px;
+    padding: 6%;
+    background-color: var(--text-color1);
+    width: 100%;
+    height: 130px;
+}
+.blog-contact .blog .blog-link p, .contact .contact-link p {
+    color: var(--text-color2);
+}
+.blog-contact .blog .blog-link h2, .contact .contact-link h2 {
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.blog-contact .blog .blog-link a, .contact .contact-link a{
+    color: var(--color3);
+    font-family: "Oswald", sans-serif;
+}
+
+.testimonials {
+    border-radius: 15px;
+    margin: 30px 0 30px 30px;
+    padding: 5% 4%;
+    background-color: var(--text-color1);
 }
